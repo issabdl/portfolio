@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/accueil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio — Issa Abdoulaye</title>
+</head>
+<body>
+
+    <div id="bg-grid" class="container" aria-hidden="true"></div>
+
+    <header> <!-- HEADER -->
+        <nav id="menu-nav">
+
+            <div id="mini-menu">
+                <a href="index.html" class="brand" aria-label="Retour à l'accueil">
+                    <img src="piece/Pour une vie meilleure (4).png" alt="logo" id="logo">
+                </a>
+            </div>
+
+            <button id="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu-div">
+                Menu
+            </button>
+
+            <ul id="menu-div">
+                <li class="li"><a href="#competences">Compétences</a></li>
+                <li class="li"><a href="#apropos">Qui suis-je ?</a></li>
+                <li class="li"><a href="#projets">Projets</a></li>
+                <li class="li"><a href="#cv">CV</a></li>
+                <li class="li"><a href="#contact">Contact</a></li>
+            </ul>
+
+             <div id="mini-menu2">
+                <img src="piece/photoIA.png" alt="photo de profil" id="pp">
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main id="content"> <!-- MAIN -->
+        <section id="first-part" class="section section-hero"> <!-- S1 -->
+
+            <div id="mini">
+                <p id="titre1" class="bigtitre" title="BIENVENUE,">BIENVENUE,</p>
+                <p id="titre2" class="bigtitre" title="ISSA ABDOULAYE"> ISSA  ABDOULAYE</p>
+            </div>
+
+            <div class="hero-sub reveal">
+                <p class="header-time" aria-label="Heure actuelle"><span id="current-time">--:--</span></p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#cv">Voir mon CV</a>
+                    <!-- <a class="btn btn-ghost" href="#projets">Voir mes projets</a> -->
+                </div>
+            </div>
+
+        </section> 
+
+        <section id="apropos" class="section section-about"> <!-- S2 --> 
+
+
+
+        <div id="ok" class="reveal">
+        <div id="mini-first">
+
+            <div id="a-div">
+                <img src ="piece/image00001.jpeg" alt="photo" id="photoAccueil" loading="lazy">
+            </div>
+        </div>
+
+        <div id="mini-second">
+            <div id="c-div">
+                <img src ="piece/image00003.jpeg" alt="photo" id="photoAccueil2" loading="lazy">
+            </div>
+            <div id="d-div">
+                <p class="p-div">Je m’appelle Issa Abdoulaye, j’ai 23 ans et je suis étudiant en 3ᵉ année de développement web.</p>
+                <p class="p-div">Passionné par le code, j’aime concevoir des projets solides avec une véritable identité visuelle.</p>
+                <p class="p-div">Curieux, dynamique et très sociable, je puise mon inspiration dans l’art (hip-hop, graffiti, mode), le sport et les jeux vidéo, des univers qui nourrissent ma créativité et mon approche du développement.</p>
+            </div>
+        </div>
+        </div>
+
+        </section> 
+
+        <section id="competences" class="section section-skills"> <!-- S3 -->
+            <div class="section-head reveal">
+                <h2 class="section-title">Langages et outils</h2>
+            </div>
+
+            <div class="skills-grid reveal">
+                <div class="card-div">
+                    <img src="piece/Unofficial_JavaScript_logo_2.svg.png" class="card" alt="JavaScript" loading="lazy">
+                    <h3>JavaScript</h3>
+                    <p class="minitext"></p>
+                </div>
+                <div class="card-div">
+                    <img src="piece/original-1582297809-33f3e434bab7633744d99012eec6986d.jpg" class="card" alt="Django" loading="lazy">
+                    <h3>Django</h3>
+                    <p class="minitext"></p>
+                </div>
+                <div class="card-div">
+                    <img src="piece/mysql-logo-B4943FE6DD-seeklogo.com.png" class="card" alt="MySQL" loading="lazy">
+                    <h3>MySQL</h3>
+                    <p class="minitext"></p>
+                </div>
+                                <div class="card-div">
+                    <img src="piece/php_logo.png" class="card" alt="PHP" loading="lazy">
+                    <h3>PHP</h3>
+                    <p class="minitext"></p>
+                </div>
+                <div class="card-div">
+                    <img src="piece/typescript (1).svg" class="card" alt="TypeScript" loading="lazy">
+                    <h3>TypeScript</h3>
+                    <p class="minitext"></p>
+                </div>
+                <div class="card-div">
+                    <img src="piece/360_F_597374605_tph8vB4RrkKvN2MT1gKeJUKerCR8LYu8.jpg" class="card" alt="API" loading="lazy">
+                    <h3>API</h3>
+                    <p class="minitext"></p>
+                </div>
+                <div class="card-div">
+                    <img src="piece/85f69649-5387-44c2-ba45-81ae13812e36-cover.png" class="card" alt="Figma" loading="lazy">
+                    <h3>Figma</h3>
+                    <p class="minitext"></p>
+                </div>
+            </div>
+
+            <div class="chips reveal" aria-label="Compétences clés">
+                <span class="chip">Animations simples</span>
+                <span class="chip">Responsive</span>
+                <span class="chip">Travail en équipe</span>
+                <span class="chip">Autonomie</span>
+            </div>
+        </section> <!-- S3-->
+
+        <section id="projets" class="section section-projects">
+            <div class="section-head reveal">
+                <h2 class="section-title">Projets</h2>
+                <p class="section-subtitle">Quelques exemples...</p>
+            </div>
+
+            <div class="projects-grid reveal">
+                <article class="project-card">
+                    <div class="project-top">
+                        <h3 class="project-title">AIsoft</h3>
+                        <p class="project-desc">Une application propre et rapide, avec une identité visuelle, capable d’analyser une image uploadée, d’identifier une arme grâce à un modèle intégré d'intelligence artificielle basé sur ResNet50.<p>
+                    </div>
+                    <div class="project-meta">
+                        <span class="badge">React</span>
+                        <span class="badge">TailwdindCSS</span>
+                        <span class="badge">Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a class="link" href="https://github.com/Oscarj-jqt/AIsoft">GitHub</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <h3 class="project-title">Systme-de-Parking-Partage</h3>
+                        <p class="project-desc">TaxawCar est une plateforme web complète de gestion et de réservation de places de parking partagées. Elle permet aux propriétaires de parking de gérer leurs ressources et aux clients de rechercher et réserver des places en quelques clics.</p>
+                    </div>
+                    <div class="project-meta">
+                        <span class="badge">VanillaJS</span>
+                        <span class="badge">MySQL</span>
+                        <span class="badge">PHP</span>
+                        <span class="badge">CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a class="link" href="https://github.com/OUSMANE-SACKO/Projet-Systme-de-Parking-Partage">GitHub</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="cv" class="section section-cv">
+            <div class="section-head reveal">
+                <h2 class="section-title">CV</h2>
+            </div>
+
+            <!-- <div class="cv-actions reveal">
+                <button class="btn btn-primary" type="button" id="print-cv">Imprimer / PDF</button>
+            </div> -->
+
+            <div class="cv-grid reveal">
+                <article class="cv-card">
+                    <h3>Informations personnelles</h3>
+                    <ul class="list">
+                        <li><span class="k">Prénom Nom</span><span class="v">Issa Abdoulaye</span></li>
+                        <li><span class="k">Date de naissance</span><span class="v">28/07/2002</span></li>
+                        <li><span class="k">Téléphone</span><span class="v">+33 6 95 91 33 35</span></li>
+                        <li><span class="k">E-mail</span><span class="v"><a class="link" href="mailto:issabdoulaye75@email.com">issabdoulaye75@email.com</a></span></li>
+                        <li><span class="k">Ville</span><span class="v">Dammartin-En-Goele</span></li>
+                    </ul>
+                </article>
+
+                <article class="cv-card">
+                    <h3>Grandes Expériences</h3>
+                    <div class="timeline">
+                        <div class="t-item">
+                            <p class="t-top"><span class="t-role">Concour National (travail en équipe avec des allemands)</span></p>
+                            <p class="t-meta">2025 • Frontend / Backend</p>
+                            <p class="t-desc">Application web qui permet aux utilisateurs de se connecter, de partager des contenus, et de s’interactuer avec d’autres personnes (réseau social). </p>
+                        </div>
+                        <div class="t-item">
+                            <p class="t-top"><span class="t-role">Projet en cours...</span></p>
+                            <p class="t-meta">2025 • Frontend / Backend</p>
+                            <p class="t-desc">Faire un Flipper (jeu de société/d'arcade) tout en utilisant de la 3D et de l'intelligence artificielle pour ajouter des fonctionnalités avancées.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cv-card">
+                    <h3>Études</h3>
+                    <div class="timeline">
+                        <div class="t-item">
+                            <p class="t-top"><span class="t-role">Bachelor Développement Web</span> — <span class="t-org">HETIC</span></p>
+                            <p class="t-meta">Montreuil</p>
+                            <p class="t-meta">2023–2026</p>
+                            <!-- <p class="t-desc">Cours : fullstack, IA, 3D, base de données, UI/UX, gestion de projet.</p> -->
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="t-item">
+                            <p class="t-top"><span class="t-role">Formation Developper Web</span> — <span class="t-org">ALT RH</span></p>
+                            <p class="t-meta">Montévrain</p>
+                            <p class="t-meta">2022-2023</p>
+                            <!-- <p class="t-desc">Cours : fullstack, IA, 3D, base de données, UI/UX, gestion de projet.</p> -->
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="t-item">
+                            <p class="t-top"><span class="t-role">Baccalauréat Economique Et Social</span> — <span class="t-org">Lycée Honoré De Balzac</span></p>
+                            <p class="t-meta">Mitry-Mory</p>
+                            <p class="t-meta">2020-2021</p>
+                            <!-- <p class="t-desc">Cours : fullstack, IA, 3D, base de données, UI/UX, gestion de projet.</p> -->
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cv-card">
+                    <h3>Langues</h3>
+                    <ul class="list">
+                        <li><span class="k">Français</span><span class="v">Natif</span></li>
+                        <li><span class="k">Anglais</span><span class="v">Compétences professionelle complète</span></li> 
+                        <li><span class="k">Néerlandais</span><span class="v">Notions élementaires</span></li> 
+                        <li><span class="k">Espagnol</span><span class="v">Notions élémentaires</span></li> 
+                    </ul>
+                </article>
+
+                <article class="cv-card">
+                    <h3>Voyages</h3>
+                    <ul class="list">
+                        <li><span class="v">Espagne, Maroc, Pays-Bas, Dubai, Suede, Cameroun, Angleterre, Belgique</span></li>
+                        <!-- <li><span class="k">Ce que ça m’apporte</span><span class="v">Ouverture, curiosité, adaptabilité.</span></li> -->
+                    </ul>
+                </article>
+
+                <article class="cv-card">
+                    <h3>Passions</h3>
+                    <div class="chips">
+                        <span class="chip">Lecture</span>
+                        <span class="chip">Graffiti</span>
+                        <span class="chip">Sport</span>
+                        <span class="chip">Mode</span>
+                        <span class="chip">Jeux vidéo</span>
+                    </div>
+                </article>
+
+                <article class="cv-card">
+                    <h3>Atouts</h3>
+                    <div class="chips">
+                        <span class="chip">Curieux</span>
+                        <span class="chip">Esprit d'équipe</span>
+                        <span class="chip">Organisé</span>
+                    </div>
+                </article>
+
+                <article class="cv-card">
+                    <h3>Réseaux sociaux</h3>
+                    <ul class="list">
+                        <li><span class="k">LinkedIn</span><span class="v"><a class="link" href="https://www.linkedin.com/in/issa-abdoulaye/">https://www.linkedin.com/in/issa-abdoulaye/</a></span></li>
+                        <li><span class="k">GitHub</span><span class="v"><a class="link" href="https://github.com/issabdl">https://github.com/issabdl</a></span></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-contact">
+            <div class="section-head reveal">
+                <h2 class="section-title">Contact</h2>
+            </div>
+
+            <div class="contact-grid reveal">
+                <a class="contact-card" href="mailto:issa@email.com">
+                    <h3>E-mail</h3>
+                    <p>issabdoulaye75gmail.com</p>
+                </a>
+                <a class="contact-card" href="#">
+                    <h3>Numéro de téléphone</h3>
+                    <p>+33 6 95 91 33 35</p>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+<script src="index.js"></script>
+<script src="carre.js"></script>
+</body>
+</html>

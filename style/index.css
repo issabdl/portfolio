@@ -1,0 +1,100 @@
+body {
+    background: radial-gradient(900px 520px at 15% -10%, rgba(0, 229, 255, 0.12), transparent 60%),
+      radial-gradient(760px 520px at 95% 0%, rgba(182, 255, 0, 0.10), transparent 55%),
+      #05060a;
+    font-family: "Kadwa", serif;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.92);
+    margin: 0;
+}
+
+#titre {
+    color: rgba(255, 255, 255, 0.94);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+#subtitle {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 15px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+#first-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+    padding: 28px;
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px rgba(255, 255, 255, 0.14) solid;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.6);
+    max-width: 520px;
+}
+
+#pp1 {
+    justify-content: center;
+    clip-path: ellipse(50% 50%);
+    margin-left: 10px;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border:S rgba(255, 255, 255, 0.14) solid;
+    margin-bottom: 2px;
+}
+
+#mini-menu {
+    display: flex;
+    justify-content: left;
+}
+#second-div {
+    justify-content: center;
+    display: flex;
+    padding-top: 6px;
+}
+
+button {
+    width: 220px;
+    height: 42px;
+    background: linear-gradient(135deg, rgba(0, 229, 255, 0.22), rgba(182, 255, 0, 0.14));
+    border-radius: 16px;
+    color: rgba(255, 255, 255, 0.96);
+    border: 1px rgba(0, 229, 255, 0.22) solid;
+    cursor: pointer;
+    transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    border-color: rgba(182, 255, 0, 0.30);
+}
+
+#hint {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 13px;
+    text-align: center;
+}
+
+@media (max-width: 520px) {
+    #first-div {
+        padding: 22px;
+    }
+
+    #pp1 {
+        width: 220px;
+        height: 220px;
+    }
+}
